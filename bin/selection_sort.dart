@@ -1,5 +1,6 @@
 void main(List<String> arguments) {
   List<int> list = [150, 23, 5, 20, 16, 3, 50, 100, 19];
+  selectionSort(list: list);
 }
 
 void selectionSort({required List<int> list}) {
